@@ -356,6 +356,11 @@ const ContestResults = () => {
           </div>
         )}
       </div>
+
+      {/* クレジット表示 */}
+      <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-xs text-gray-500 opacity-70">
+        developed by T.H. Data Science Team 2025
+      </div>
     </div>
   );
 };
